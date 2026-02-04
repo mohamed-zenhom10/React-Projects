@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-color: #F8F9FA;
+  --green: #2ECC71;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  width: 600px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgb(0 , 0 , 0 , 0.1);
+  margin: 60px auto 0;
+  background-color: #fff;
+}
+
+.container .title {
+  margin-bottom: 20px;
+}
+
+.container .title i {
+  color: red;
+}
+
+.container .input-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.container .input-box input {
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  padding: 0 15px;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.container .input-box button {
+  padding: 0 25px;
+  height: 40px;
+  cursor: pointer;
+  background-color: var(--green);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.task input {
+  width: 15px;
+  height: 15px;
+}
+
+.task label {
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.task label.selected {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.task .del-btn {
+  font-size: 25px;
+  cursor: pointer;
+}
