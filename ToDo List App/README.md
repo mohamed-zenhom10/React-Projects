@@ -23,4 +23,5 @@ A simple To-Do List application built using **React** that helps users manage th
 
 ## ScreenShot
 
-![Screen Shot](/src/assets/screenshot.png);
+![Screen Shot](src/assets/screenshot.png)
+
