@@ -42,4 +42,4 @@ A simple React application that allows users to generate random passwords based 
 
 ## 🖼 Screenshot
 
-![Password Generator Screenshot](/public/screenshot.png)
+![Password Generator Screenshot](public/screenshot.png)
