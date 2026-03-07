@@ -1,0 +1,10 @@
+.searched {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.searched-products .container h1 {
+  margin-bottom: 15px;
+}

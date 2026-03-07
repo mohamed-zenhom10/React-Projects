@@ -1,0 +1,51 @@
+.hero {
+  position: relative;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  padding: 25px 20px;
+}
+
+.swiper-slide .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide .content h4 {
+  text-transform: uppercase;
+  font-size: 1vw;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0.4vw;
+}
+
+.swiper-slide .content h3 {
+  font-size: 3vw;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.swiper-slide .content p {
+  margin: 15px 0;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 200px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--white-color);
+  border-radius: 2px;
+}

@@ -1,0 +1,137 @@
+:root {
+  --main-color: #0090f0;
+  --p-color: #7b7b7b;
+  --bg-color: #F3F3F3;
+  --white-color: #fff;
+  --heading-color: #253237;
+  --border-color: #d6d6d6d5;
+}
+
+.item-details .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-details .container .img-item {
+  width: 40%;
+}
+
+.item-details .container .img-item .big-img {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-details .container .img-item .big-img img{
+  max-height: 250px;
+  width: auto;
+}
+
+.item-details .container .img-item .small-imgs {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.item-details .container .img-item .small-imgs img {
+  width: 24%;
+}
+
+.item-details .container .details-item {
+  width: 58%;
+}
+
+.item-details .container .details-item .name {
+  margin-bottom: 30px;
+  color: var(--main-color);
+}
+
+.item-details .container .details-item .stars {
+  margin: 15px 0;
+  display: flex;
+  gap: 8px;
+}
+
+.item-details .container .details-item .stars svg {
+  color: #f8d941;
+}
+
+.item-details .container .details-item .price {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.item-details .container .details-item h4 {
+  font-weight: 500;
+  font-size: 17px;
+  margin: 20px 0;
+}
+
+.item-details .container .details-item .desc {
+  line-height: 1.5;
+}
+
+.item-details .container .details-item .stock {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.item-details .container .details-item .btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+}
+
+.item-details .container .details-item .btn.in-cart {
+  pointer-events: none;
+  background-color: gray;
+}
+
+.heart-icon {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.heart-icon svg{
+  transition: 0.3s ease all;
+  font-size: 18px;
+  fill: var(--main-color);
+}
+
+.heart-icon:hover {
+  background-color: var(--main-color);
+}
+
+.heart-icon:hover svg {
+  fill: var(--white-color);
+}
+
+.loading-item .item-details .img-item {
+  height: 500px;
+}
+
+.loading-item .item-details .details-item {
+  height: 500px;
+  padding-top: 90px;
+}
+
+.loading-item .item-details .details-item h5 {
+  margin-bottom: 40px;
+  height: 30px;
+}
+
+.in-fav {
+  background-color: gray;
+}
