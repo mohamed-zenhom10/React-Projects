@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --main-color: #53CBF3;
+  --white: #fff;
+  --black: #000;
+  --red: #FF4400;
+  --green: #48A111;
+  --light-color: #f8f8f8;
+}
+
+body {
+  background-color: var(--light-color);
+}
+
+input , select {
+  border: 2px solid black;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  height: 40px;
+  font-size: 18px;
+}
+
+input:focus,
+select:focus {
+  border: 2px solid var(--main-color);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.title {
+  background-color: var(--main-color);
+  text-align: center;
+  color: var(--white);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 30px 0;
+}
+
+.title h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.create-product {
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+
+.create-product .pro-title input{
+  width: 100%;
+}
+
+.create-product .pro-price {
+  display: flex;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.create-product .pro-price input,
+.create-product .pro-price span {
+  flex: 1;
+}
+
+.create-product .pro-price span {
+  line-height: 40px;
+  font-size: 17px;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.create-product .pro-data {
+  display: flex;
+  gap: 15px;
+}
+
+.create-product .pro-data input {
+  flex: 1;
+}
+
+.create-product button {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: var(--green);
+  color: var(--white);
+  transition: 0.4s ease all;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.create-product button:hover {
+  transform: translateY(-5px);
+}
+
+.product-search {
+  background-color: var(--white);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.product-search form {
+  display: flex;
+  gap: 15px;
+}
+
+.product-search form .category {
+  flex: 1;
+  display: flex;
+}
+
+.product-search form .category select{
+  width: 100%;
+}
+
+.product-search form .category span {
+  font-size: 20px;
+}
+
+.product-search form .search-input {
+  flex: 2;
+}
+
+.product-search form .search-input input {
+  width: 100%;
+}
+
+.products {
+  background-color: var(--white);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.products table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.products table thead tr {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.products table thead tr th {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.products table tbody tr {
+  border: 1px solid var(--black);
+}
+
+.products table tbody tr td {
+  font-size: 15px;
+  padding: 4px;
+}
+
+.products table tbody tr td button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.products table tbody tr td button.update {
+  background-color: var(--green);
+}
+
+.products table tbody tr td button.delete {
+  background-color: var(--red);
+}
+
+.update-card {
+  background-color: rgba(128, 128, 128, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-card form {
+  background-color: var(--white);
+  padding: 15px;
+  box-shadow: 0 4px 8px rgb(0 , 0, 0,0.2);
+  width: 500px;
+}
+
+.update-card form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 0;
+  border: 1px solid var(--black);
+  margin: 15px 0;
+}
+
+.update-card form input:focus {
+  border: 1px solid var(--main-color);
+}
+
+.update-card form button {
+  padding: 5px 20px;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--green);
+  cursor: pointer;
+  color: var(--white);
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
