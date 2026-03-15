@@ -44,4 +44,4 @@ Example endpoint:
 
 ## ScreenShot
 
-![ScreenShot]("public/localhost_5173_.png")
+![ScreenShot](public/localhost_5173_.png)
