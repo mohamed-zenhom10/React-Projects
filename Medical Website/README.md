@@ -22,12 +22,6 @@ The platform aims to provide a seamless user experience for browsing doctors, ex
 * CSS3 (Flexbox & Grid)
 * React Icons (Icons)
 
----
-
-## 📂 Project Structure
-
----
-
 ## 💡 Key Sections
 
 * 🏠 Home
