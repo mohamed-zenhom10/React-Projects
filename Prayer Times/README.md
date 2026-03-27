@@ -26,3 +26,7 @@ A responsive and stylish **Prayer Times** web application built with **React.js*
 ## Screenshot
 
 ![screenshot](public/demo.png);
+
+## Live Demo
+
+<a href="https://egyptian-prayer-times-app.netlify.app/">live demo</a>
