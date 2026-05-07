@@ -49,3 +49,22 @@
   color: var(--white-color);
   border-radius: 2px;
 }
+
+@media (max-width: 992px) {
+  .swiper-slide {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0;
+  }
+  .swiper-slide img {
+    width: 300px;
+  }
+
+  .swiper-slide .content h4 {
+    font-size: 3vw;
+  }
+
+  .swiper-slide .content h3 {
+    font-size: 5vw;
+  }
+}

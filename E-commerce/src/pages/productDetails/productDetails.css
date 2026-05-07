@@ -44,6 +44,7 @@
 }
 
 .item-details .container .details-item .name {
+  margin-top: 20px;
   margin-bottom: 30px;
   color: var(--main-color);
 }
@@ -134,4 +135,20 @@
 
 .in-fav {
   background-color: gray;
+}
+
+@media (max-width: 768px) {
+
+  .item-details .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .item-details .container .img-item {
+    width: 100%;
+  }
+
+  .item-details .container > div {
+    flex: 1;
+  }
 }

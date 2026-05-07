@@ -1,13 +1,14 @@
 :root {
   --main-color: #0090f0;
   --p-color: #7b7b7b;
-  --bg-color: #F3F3F3;
+  --bg-color: #f3f3f3;
   --white-color: #fff;
   --heading-color: #253237;
   --border-color: #d6d6d6d5;
 }
 
-button , svg {
+button,
+svg {
   cursor: pointer;
 }
 
@@ -15,7 +16,7 @@ button , svg {
   width: 65%;
   padding: 25px;
   border: 1px solid var(--border-color);
-  box-shadow: 0 4px 8px rgb(0 , 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
   margin: 0 auto;
 }
 
@@ -106,7 +107,6 @@ button , svg {
   border: 1px solid var(--border-color);
 }
 
-
 .summary {
   border-top: 1px solid var(--border-color);
   padding: 20px 0;
@@ -144,4 +144,22 @@ button , svg {
 
 .order-button button:hover {
   transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .cart .orders-summary {
+    width: 100%;
+  }
+
+  .cart .orders-summary .items .item-card .img-container {
+    gap: 10px;
+  }
+
+  .cart .orders-summary .items .item-card img {
+    height: 40px;
+  }
+
+  .cart .orders-summary .items .item-card .delete-icon svg {
+    font-size: 18px;
+  }
 }

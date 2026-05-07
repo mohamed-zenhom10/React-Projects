@@ -7,10 +7,11 @@ import "./Header.css";
 import { CartContext } from "../context/CartContext";
 
 const TopHeader = () => {
-  const { cartItems , favorite } = useContext(CartContext);
+  const { cartItems, favorite } = useContext(CartContext);
   const [input, setInput] = useState("");
   const navigate = useNavigate();
   const [suggesion, setSuggestion] = useState([]);
+  const [displaySearch, setDisplaySearch] = useState(false);
 
   const handleSubmite = (e) => {
     e.preventDefault();
@@ -45,14 +46,16 @@ const TopHeader = () => {
     return () => clearTimeout(debounce);
   }, [input]);
 
-
   return (
     <>
       <div className="top-header">
         <div className="container">
           <Link to="/">E-Commerce</Link>
 
-          <form className="search-box" onSubmit={handleSubmite}>
+          <form
+            className={`search-box ${displaySearch ? "display" : ""}`}
+            onSubmit={handleSubmite}
+          >
             <input
               type="text"
               placeholder="search for products"
@@ -90,6 +93,12 @@ const TopHeader = () => {
                 <FaShoppingCart />
                 <span className="count">{cartItems.length}</span>
               </Link>
+            </div>
+            <div
+              className="icon"
+              onClick={() => setDisplaySearch(!displaySearch)}
+            >
+              <FaSearch />
             </div>
           </div>
         </div>

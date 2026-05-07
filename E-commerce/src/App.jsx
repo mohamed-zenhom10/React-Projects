@@ -9,6 +9,9 @@ import { Toaster } from 'react-hot-toast'
 import CategoryPage from './pages/CategoryPage/CategoryPage'
 import Search from './pages/search/Search'
 import Favorite from './pages/Favorite/Favorite'
+import About from './pages/About/About'
+import Contact from './pages/contact/Contact'
+import Blog from './pages/Blog/Blog'
 
 const App = () => {
 
@@ -34,6 +37,9 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/favorite" element={<Favorite />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/about" element={<About />}/>
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="/blog" element={<Blog />}/>
       </Routes>
 
     </>

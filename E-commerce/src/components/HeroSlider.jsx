@@ -6,6 +6,10 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination} from 'swiper/modules';
 import { Link } from 'react-router-dom';
 
+import slider_1 from "../imgs/slider-1.png";
+import slider_2 from "../imgs/slider-2.png";
+import slider_3 from "../imgs/slider-3.png";
+
 const HeroSlider = () => {
   return (
     <>
@@ -26,7 +30,7 @@ const HeroSlider = () => {
                 <p>Ipone Max Pro</p>
                 <Link to="/" className='btn'>Shop Now</Link>
               </div>
-              <img src="/src/imgs/slider-1.png" alt="slider 1" />
+              <img src={slider_1} alt="slider 1" />
             </SwiperSlide>
             <SwiperSlide>
               <div className="content">
@@ -35,7 +39,7 @@ const HeroSlider = () => {
                 <p>Hand Free Pro</p>
                 <Link to="/" className='btn'>Shop Now</Link>
               </div>
-              <img src="/src/imgs/slider-2.png" alt="slider 1" />
+              <img src={slider_2} alt="slider 1" />
             </SwiperSlide>
             <SwiperSlide>
               <div className="content">
@@ -44,7 +48,7 @@ const HeroSlider = () => {
                 <p>EarBods Max</p>
                 <Link to="/" className='btn'>Shop Now</Link>
               </div>
-              <img src="/src/imgs/slider-3.png" alt="slider 1" />
+              <img src={slider_3} alt="slider 1" />
             </SwiperSlide>
           </Swiper>
         </div>

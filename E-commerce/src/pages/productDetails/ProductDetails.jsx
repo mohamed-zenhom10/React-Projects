@@ -44,8 +44,10 @@ const ProductDetails = () => {
 
   const handleAddToFavorites = () => {
     if(isInFav) {
+      // eslint-disable-next-line no-undef
       removeFromFav(product.id);
       toast.error(
+        // eslint-disable-next-line no-undef
         `${item.title} removed form favorites`
       )
     } else {
@@ -85,9 +87,13 @@ const ProductDetails = () => {
 
   return (
     <div>
+
       <div className="item-details">
+
         <div className="container">
+          
           <div className="img-item">
+            
             <div className="big-img">
               <img id="big" src={product.images[0]} alt={product.title} />
             </div>
@@ -134,8 +140,11 @@ const ProductDetails = () => {
               <FaHeart  onClick={handleAddToFavorites}/>
             </div>
           </div>
+
         </div>
+
       </div>
+
 
       {realtedProductsLoading ? (
         <SlideProductLoading />
