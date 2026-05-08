@@ -1,0 +1,122 @@
+[
+  {
+    "question_title": "What is React.js mainly used for?",
+    "answer_1": "Building user interfaces",
+    "answer_2": "Managing databases",
+    "answer_3": "Creating operating systems",
+    "answer_4": "Designing networks",
+    "correct_answer": "Building user interfaces"
+  },
+  {
+    "question_title": "Which company developed React.js?",
+    "answer_1": "Google",
+    "answer_2": "Facebook",
+    "answer_3": "Microsoft",
+    "answer_4": "Apple",
+    "correct_answer": "Facebook"
+  },
+  {
+    "question_title": "What hook is used to manage state in functional components?",
+    "answer_1": "useEffect",
+    "answer_2": "useState",
+    "answer_3": "useContext",
+    "answer_4": "useRef",
+    "correct_answer": "useState"
+  },
+  {
+    "question_title": "What does JSX stand for?",
+    "answer_1": "Java Syntax Extension",
+    "answer_2": "JavaScript XML",
+    "answer_3": "Java Source XML",
+    "answer_4": "JSON XML",
+    "correct_answer": "JavaScript XML"
+  },
+  {
+    "question_title": "Which hook is used for side effects in React?",
+    "answer_1": "useState",
+    "answer_2": "useMemo",
+    "answer_3": "useEffect",
+    "answer_4": "useReducer",
+    "correct_answer": "useEffect"
+  },
+  {
+    "question_title": "What is the purpose of props in React?",
+    "answer_1": "To style components",
+    "answer_2": "To pass data between components",
+    "answer_3": "To connect databases",
+    "answer_4": "To create animations",
+    "correct_answer": "To pass data between components"
+  },
+  {
+    "question_title": "Which method is used to render React content to the DOM?",
+    "answer_1": "ReactDOM.render",
+    "answer_2": "React.mount",
+    "answer_3": "React.create",
+    "answer_4": "DOM.render",
+    "correct_answer": "ReactDOM.render"
+  },
+  {
+    "question_title": "What is a component in React?",
+    "answer_1": "A database table",
+    "answer_2": "A reusable piece of UI",
+    "answer_3": "A CSS library",
+    "answer_4": "A backend service",
+    "correct_answer": "A reusable piece of UI"
+  },
+  {
+    "question_title": "Which hook can improve performance by memoizing values?",
+    "answer_1": "useMemo",
+    "answer_2": "useState",
+    "answer_3": "useEffect",
+    "answer_4": "useContext",
+    "correct_answer": "useMemo"
+  },
+  {
+    "question_title": "What is the virtual DOM in React?",
+    "answer_1": "A copy of the real DOM kept in memory",
+    "answer_2": "A browser extension",
+    "answer_3": "A CSS framework",
+    "answer_4": "A backend server",
+    "correct_answer": "A copy of the real DOM kept in memory"
+  },
+  {
+    "question_title": "Which keyword is used to create a class component?",
+    "answer_1": "function",
+    "answer_2": "component",
+    "answer_3": "class",
+    "answer_4": "new",
+    "correct_answer": "class"
+  },
+  {
+    "question_title": "What is the correct way to pass a prop called name?",
+    "answer_1": "<Component name='Mohamed' />",
+    "answer_2": "<Component =name 'Mohamed' />",
+    "answer_3": "<Component prop:name='Mohamed' />",
+    "answer_4": "<Component -> name='Mohamed' />",
+    "correct_answer": "<Component name='Mohamed' />"
+  },
+  {
+    "question_title": "Which hook is used to access context data?",
+    "answer_1": "useState",
+    "answer_2": "useEffect",
+    "answer_3": "useContext",
+    "answer_4": "useMemo",
+    "correct_answer": "useContext"
+  },
+  {
+    "question_title": "What is the purpose of keys in React lists?",
+    "answer_1": "To add CSS styles",
+    "answer_2": "To uniquely identify elements",
+    "answer_3": "To store passwords",
+    "answer_4": "To create routes",
+    "correct_answer": "To uniquely identify elements"
+  },
+  {
+    "question_title": "Which React hook is used to reference DOM elements directly?",
+    "answer_1": "useRef",
+    "answer_2": "useMemo",
+    "answer_3": "useEffect",
+    "answer_4": "useReducer",
+    "correct_answer": "useRef"
+  }
+]
